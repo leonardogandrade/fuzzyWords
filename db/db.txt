@@ -1,0 +1,5 @@
+server which will retrieve data from users
+users data will be returned to server
+all data from user should be retrieved
+server will fetch all data from users
+get data from users
