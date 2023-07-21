@@ -43,23 +43,3 @@ class UniversalSentenceEncoder:
               
               return result
        
-   
-# module_url = "https://tfhub.dev/google/universal-sentence-encoder/4" #@param ["https://tfhub.dev/google/universal-sentence-encoder/4", "https://tfhub.dev/google/universal-sentence-encoder-large/5"]
-# model = hub.load(module_url)
-# print ("module %s loaded" % module_url)
-
-# doc = ["I ate an hanburger",
-#        "the hanburger is taste",
-#        "hanburger is junkfood",
-#        "My lunch was a big hanburger",
-#        "do you like apple?"]
-
-# query = ["I like to eat hamburger"]
-
-# bank_vec = model(doc)
-
-# query_vec = model(query)
-
-# correlation = np.transpose(np.inner(query_vec,bank_vec))
-# print("Closest match found to '",query[0],"' is '",doc[np.argmax(correlation, axis=0)[0]],"'")
-# print("Correlation matrix shape: ",correlation.shape)
